@@ -47,6 +47,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
-.list{
-    
+.left-cont{
+    width: 30%;
+    float: left;
+}
+.right-cont{
+    width: 70%;
+    float: right;
 }
