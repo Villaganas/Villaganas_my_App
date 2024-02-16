@@ -15,7 +15,6 @@ h1 {
 
 .search-container {
     margin-bottom: 10px;
-    float: right;
     margin-bottom: 20px;
 }
 
@@ -46,12 +45,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-.left-cont{
-    width: 30%;
-    float: left;
-}
-.right-cont{
-    width: 70%;
-    float: right;
 }
