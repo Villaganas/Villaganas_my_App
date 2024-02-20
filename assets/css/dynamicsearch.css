@@ -35,6 +35,10 @@ li {
     border-radius: 5px;
     margin-bottom: 5px;
 }
+.search{
+    width: 60%;
+    margin: 5% 20% 0% 20%;
+}
 
 footer {
     text-align: center;
