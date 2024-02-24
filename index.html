@@ -11,38 +11,40 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
   </head>
-  <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="calculator/calculator.html">Calculator</a>
-    <a href="todolist/todolist.html">To Do List</a>
-    <a href="dynamicsearch/dynamicsearch.html">Dynamic Search</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-      <i class="fa fa-bars"></i>
-    </a>
-  </div>
-
   <body>
+  <nav class="navbar">
+    <div class="nav-content">
+      <img src="assets/img/logo.png" alt="img not found">
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="app/calculator/calculator.html">Calculator</a>
+        <a href="app/todolist/todolist.html">To Do List</a>
+        <a href="app/dynamicsearch/dynamicsearch.html">Dynamic Search</a>
+      </div>
+      <button class="burger-menu">&#9776;</button>
+    </div>
+  </nav>
     <div class="header">
       <h1>Welcome To My Web Application</h1>
       <p>Here are my sample applications</p>
     </div>
     <div class="content">
       <div class="c1" id="calculator">
-        <a href="calculator/calculator.html">
+        <a href="app/calculator/calculator.html">
           <img src="assets/img/calculator.jfif" alt="img not found" />
           <p>Calculator</p>
         </a>
       </div>
 
       <div class="c2" id="todoList">
-        <a href="todolist/todolist.html"
+        <a href="app/todolist/todolist.html"
           ><img src="assets/img/todolist.jfif" alt="img not found" />
           <p>To Do List</p>
         </a>
       </div>
 
       <div class="c3" id="dynamicSearch">
-        <a href="dynamicsearch/dynamicsearch.html"
+        <a href="app/dynamicsearch/dynamicsearch.html"
           ><img src="assets/img/dynamicsearch.png" alt="img not found" />
           <p>Dynamic Search</p>
         </a>
